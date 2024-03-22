@@ -60,7 +60,7 @@ def main():
     start = timeit.default_timer()
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("../img/banco.png")
+    image = Image.open("https://github.com/rayssathayde/Analise_telemarketing_streamlit/blob/main/img/banco.png")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
