@@ -49,7 +49,7 @@ def to_excel(df):
 # Função principal da aplicação
 def main():
     st.set_page_config(page_title = 'Análise de Telemarketing', \
-                       page_icon = '../img/telemarketing.png',
+                       page_icon = 'https://github.com/rayssathayde/Analise_telemarketing_streamlit/blob/main/img/telemarketing.png',
                        layout="wide",
                        initial_sidebar_state='expanded'
     )
