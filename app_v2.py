@@ -49,7 +49,7 @@ def to_excel(df):
 # Função principal da aplicação
 def main():
     st.set_page_config(page_title = 'Análise de Telemarketing', \
-                       page_icon = 'https://github.com/rayssathayde/Analise_telemarketing_streamlit/blob/main/img/telemarketing.png',
+                       page_icon = 'img/telemarketing.png',
                        layout="wide",
                        initial_sidebar_state='expanded'
     )
@@ -60,7 +60,7 @@ def main():
     start = timeit.default_timer()
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("https://github.com/rayssathayde/Analise_telemarketing_streamlit/blob/main/img/banco.png")
+    image = Image.open("img/banco.png")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
