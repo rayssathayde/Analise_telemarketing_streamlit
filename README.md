@@ -34,6 +34,7 @@ ex. Rayssa Athayde
 #### Histórico de versões.
 0.2
 > Ajustes de diversos bugs e otimização
+
 0.1
 > Primeira versão
 
